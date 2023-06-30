@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health and Fitness Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Health and Fitness Tracker</h1>
+  
+  <div class="tracker">
+    <h2>Workout Routine</h2>
+    <textarea id="workout-input" placeholder="Enter your workout routine"></textarea>
+    <button onclick="trackWorkout()">Track</button>
+    <p id="workout-result"></p>
+  </div>
+
+  <div class="tracker">
+    <h2>Calorie Intake</h2>
+    <input type="number" id="calories-input" placeholder="Enter calorie intake">
+    <button onclick="trackCalories()">Track</button>
+    <p id="calories-result"></p>
+  </div>
+
+  <div class="tracker">
+    <h2>Progress Monitoring</h2>
+    <input type="number" id="weight-input" placeholder="Enter your weight">
+    <button onclick="trackWeight()">Track</button>
+    <p id="weight-result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
